@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>SPD1.2-Final-Project</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- BOOTSTRAP THEME -->
+  <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand navbar-light">
+      <a class="navbar-brand" href="#">Antonio's Pizzeria</a>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="./index.html">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./order_for_delivery.html">Order For Delivery</a>
+        <a class="nav-item nav-link" href="./contact_us.html">Contact Us</a>
+      </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="jumbotron text-center hero-background-img">
+    <h1 class="title">Antonio's Pizzeria</h1>
+    <p class="lead">Authentic Italian Pizza with a Slice of Fun!</p>
+  </div>
+
+  <!-- FORM -->
+  <form>
+    <h1>Order For Delivery Form</h1>
+    <div class="form-group">
+      <label for="amount">How many pizzas would you like to order?</label>
+      <select class="form-control" id="amount">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="size">What sizes would you like?</label>
+      <select class="form-control" id="size">
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="toppings">What toppings would you like? Please limit your amount of choices to four.</label>
+      <select multiple class="form-control" id="toppings">
+        <option>Pepperoni</option>
+        <option>Sausage</option>
+        <option>Ham</option>
+        <option>Anchovies</option>
+        <option>Mushrooms</option>
+        <option>Pineapple</option>
+        <option>Peppers</option>
+        <option>Extra Cheese</option>
+        <option>Black Olives</option>
+        <option>Chicken</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="address">Please enter your street address:</label>
+      <textarea class="form-control" id="address" rows="1"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <!-- FOOTER -->
+  <div class="footer p-5 text-white">
+    &copy; 2020 Antonio's Pizza Inc
+  </div>
+
+</body>
+</html>

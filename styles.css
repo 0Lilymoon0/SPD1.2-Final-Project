@@ -1,0 +1,27 @@
+.navbar {
+  padding 1rem;
+  background-color: orange;
+}
+
+.footer {
+  background-color: orange;
+  padding 1rem;
+}
+
+.btn-primary:hover {
+  background-color: orange;
+  color: white;
+}
+
+.title, .lead {
+  color: white;
+}
+
+.hero-background-img {
+  background-image: url("https://www.budgetbytes.com/wp-content/uploads/2010/07/Classic-Homemade-Pizza-Dough-close.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
